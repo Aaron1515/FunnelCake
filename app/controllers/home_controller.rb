@@ -2,10 +2,10 @@ class HomeController < ApplicationController
 
 
   def index
-  	# if signed in render page
-  	# else
-  	# 	go to sigin in or register page
-  	# end
+  	if current_teacher
+  	else
+  		redirect_to 
+  	end
   end
 
   def new
